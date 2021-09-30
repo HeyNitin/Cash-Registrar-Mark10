@@ -91,7 +91,7 @@ export default function App() {
                   return (
                     <tr key={index}>
                       <td>{val}</td>
-                      <td>{notesCount[index]}</td>
+                      <td>{notesCount[index]}</td>{" "}
                     </tr>
                   );
                 })}
